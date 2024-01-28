@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./
+      dockerfile: dockerfile
+    # volumes:
+    #   - type: bind
+    #     source: 
+    #     target: 

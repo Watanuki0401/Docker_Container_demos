@@ -1,0 +1,7 @@
+FROM debian:bullseye-20240110
+
+RUN apt update && \
+    apt upgrade -y && \
+    apt install vsftpd -y
+
+CMD [ "/usr/sbin/vsftpd" ]
