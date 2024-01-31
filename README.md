@@ -8,5 +8,3 @@ This repository is to learning for docker and docker-compose.
 
 # Demo4 *Vsftpd*
 
-    default file permission 666
-    local_umask is masking 0XX
